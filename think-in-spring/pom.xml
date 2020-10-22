@@ -6,19 +6,17 @@
 
     <groupId>org.example</groupId>
     <artifactId>think-in-spring</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-
-
+    <modules>
+        <module>ioc-container-overview</module>
+    </modules>
 
 
     <!-- spring 依赖管理 -->
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-context</artifactId>
-                <version>5.2.2.RELEASE</version>
-            </dependency>
+
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-jdbc</artifactId>
